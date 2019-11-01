@@ -42,3 +42,23 @@ When Node is Fully Synced enter the command below to check the masternode status
 `NUTS-cli masternode status`
 
 You will get Masternode Successfully Started
+
+
+# Guide for NUTS-mn-updater.sh:
+
+
+For **Ubuntu 16.04**
+```
+wget -q https://raw.githubusercontent.com/Nutscoin/MasternodeScript/master/NUTS-mn-updater-16.04.sh
+sudo chmod +x NUTS-mn-updater-16.04.sh
+./NUTS-mn-updater-16.04.sh
+```
+***
+
+For **Ubuntu 18.04**
+```
+wget -q https://raw.githubusercontent.com/Nutscoin/MasternodeScript/master/NUTS-mn-updater-18.04.sh
+sudo chmod +x NUTS-mn-updater-18.04.sh
+./NUTS-mn-updater-18.04.sh
+```
+***
